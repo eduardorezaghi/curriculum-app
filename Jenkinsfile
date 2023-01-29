@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Display Node.js version') {
+      steps {
+        sh 'node --version'
+      }
+    }
+
   }
 }
